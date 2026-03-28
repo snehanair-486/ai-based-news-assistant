@@ -9,35 +9,58 @@ An AI-powered news assistant that provides personalized news with summaries, cre
 - Topic filtering and search
 - User login and language preferences
 
-## Setup
+# AI-Based News Assistant
 
-### 1. Clone the repo
+An AI-powered news app that delivers personalized summaries, credibility scores, and bias analysis — tailored to your persona.
+
+---
+
+## ⚙️ Setup
+
+### Step 1 — Clone the repo
+```bash
 git clone https://github.com/snehanair-486/ai-news-assistant.git
+```
+
+### Step 2 — Install backend dependencies
+```bash
 cd ai-news-assistant
-
-### 2. Backend setup
 cd backend
 npm install
-cp .env.example .env
+```
 
-Then open backend/.env and add your real API keys:
-- News API key from https://newsapi.org
-- Groq API key from https://console.groq.com
+### Step 3 — Create `.env` file in the backend folder
 
-### 3. Frontend setup
-cd ../frontend
-npm install
+Create a `.env` file inside the `backend/` folder. You can refer to `backend/.env.example` to see what keys are needed.
 
-### 4. Run the app
-Terminal 1 (backend):
-cd backend
+Then open `.env` and paste your own API keys:
+```
+NEWS_API_KEY=your_newsapi_key
+GROQ_API_KEY=your_groq_key
+```
+
+> Get your NewsAPI key from [newsapi.org](https://newsapi.org) and your Groq key from [console.groq.com](https://console.groq.com)
+
+### Step 4 — Start the backend
+```bash
 node server.js
+```
 
-Terminal 2 (frontend):
+### Step 5 — Open a new terminal and install frontend dependencies
+```bash
+cd ai-news-assistant
 cd frontend
-npm run dev
+npm install
+```
 
-Then open http://localhost:5173 in your browser.
+### Step 6 — Start the frontend
+```bash
+npm run dev
+```
+
+---
+
+The app will be running at `http://localhost:5173` and the backend at `http://localhost:5000`.
 
 ## Tech Stack
 - Frontend: React + Vite
