@@ -21,7 +21,7 @@ An AI-powered, persona-aware news experience that goes beyond static feeds. Ever
 4. **Detect bias** — model flags political, economic, or editorial bias in the article's framing
 5. **Fact-check** — key claims cross-referenced against other live sources
 
---
+---
 
 ## 🛠 Tech Stack
 - **Frontend:** React + Vite
