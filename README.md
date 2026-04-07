@@ -32,13 +32,6 @@ An AI-powered, persona-aware news experience that goes beyond static feeds. Ever
 
 ---
 
-## 🏗 Architecture Diagram
-
-![system architecture](https://github.com/user-attachments/assets/8aeae50d-d3f1-4c86-a0df-d8a9c25e6d92)
-
-
----
-
 ## ⚙️ Setup
 
 ### Step 1 — Clone the repo
